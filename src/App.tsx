@@ -20,8 +20,9 @@ function ScrollToTop() {
 }
 
 function App() {
+  // Use basename for GitHub Pages deployment
   return (
-    <Router>
+    <Router basename="/get_cleaner">
       <ScrollToTop />
       <Layout>
         <Routes>
