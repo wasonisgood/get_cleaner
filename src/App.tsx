@@ -8,6 +8,8 @@ import { Solutions } from './pages/Solutions';
 import { Impact } from './pages/Impact';
 import { Roadmap } from './pages/Roadmap';
 import { Contact } from './pages/Contact';
+import { Privacy } from './pages/Privacy';
+import { Terms } from './pages/Terms';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -33,6 +35,8 @@ function App() {
           <Route path="/impact" element={<Impact />} />
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
       </Layout>
     </Router>
