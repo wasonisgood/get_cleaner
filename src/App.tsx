@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useLayoutEffect } from 'react';
 import { Layout } from './layouts/Layout';
 import { Home } from './pages/Home';
@@ -22,9 +22,8 @@ function ScrollToTop() {
 }
 
 function App() {
-  // Use basename for GitHub Pages deployment
   return (
-    <Router basename="/get_cleaner">
+    <Router>
       <ScrollToTop />
       <Layout>
         <Routes>
