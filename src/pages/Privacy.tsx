@@ -73,7 +73,7 @@ export function Privacy() {
               {/* Introduction */}
               <PolicySection id="introduction" title="1. 導言" icon={<FileText className="w-6 h-6" />}>
                 <p>
-                  歡迎使用 theriest（以下簡稱「我們」、「本專案」）。我們非常重視您的隱私權與個人資料保護。
+                  歡迎使用 Releaf（以下簡稱「我們」、「本專案」）。我們非常重視您的隱私權與個人資料保護。
                   本隱私權政策旨在說明我們如何收集、使用、揭露及保護您的個人資訊。
                   當您使用我們的網站、服務或參與我們的數位淨灘活動時，即表示您同意本政策所述之做法。
                 </p>
@@ -157,7 +157,7 @@ export function Privacy() {
                   ))}
                 </div>
                 <p className="mt-6 text-sm text-slate-500">
-                  若有任何隱私權相關問題，或欲行使上述權利，請透過 <a href="mailto:privacy@theriest.org" className="text-digital hover:underline">privacy@theriest.org</a> 與我們聯繫。
+                  若有任何隱私權相關問題，或欲行使上述權利，請透過 <a href="mailto:privacy@Releaf.org" className="text-digital hover:underline">privacy@Releaf.org</a> 與我們聯繫。
                 </p>
               </PolicySection>
 

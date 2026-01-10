@@ -96,7 +96,7 @@ export function Terms() {
               <section>
                 <h2 className="text-2xl font-bold text-primary-800 mb-4">1. 同意條款</h2>
                 <p>
-                  歡迎來到 theriest（以下簡稱「本平台」）。
+                  歡迎來到 Releaf（以下簡稱「本平台」）。
                   當您訪問、瀏覽或使用本網站及相關服務時，即表示您已閱讀、理解並同意受本「使用條款」（以下簡稱「本條款」）之約束。
                   若您不同意本條款的任何部分，請立即停止使用本平台。
                 </p>
@@ -183,7 +183,7 @@ export function Terms() {
                 <h2 className="text-2xl font-bold text-primary-800 mb-4">7. 聯絡與管轄</h2>
                 <p>
                   本條款適用中華民國法律，以台北地方法院為管轄法院。聯絡請洽：
-                  <a href="mailto:legal@theriest.org" className="text-digital hover:underline ml-1">legal@theriest.org</a>
+                  <a href="mailto:legal@Releaf.org" className="text-digital hover:underline ml-1">legal@Releaf.org</a>
                 </p>
               </section>
             </div>

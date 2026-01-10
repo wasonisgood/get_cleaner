@@ -37,7 +37,7 @@ export function Contact() {
             title="企業響應"
             description="將「數位ESG」納入企業永續指標。我們提供企業級的數位健檢諮詢與員工工作坊。"
             actionText="申請合作"
-            actionLink="mailto:partner@theriest.org"
+            actionLink="mailto:partner@Releaf.org"
             delay={0.2}
           />
           <ActionCard 
@@ -45,7 +45,7 @@ export function Contact() {
             title="開源貢獻"
             description="我們是開源專案。歡迎開發者、設計師加入我們的 GitHub，一起打造更好用的清理工具。"
             actionText="前往 GitHub"
-            actionLink="https://github.com/theriest" // Placeholder URL
+            actionLink="https://github.com/Releaf" // Placeholder URL
             delay={0.3}
           />
         </div>
@@ -90,12 +90,12 @@ export function Contact() {
          <h2 className="text-3xl font-bold text-center text-primary-900 mb-12">保持連結</h2>
          <div className="grid md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto">
            <FadeIn delay={0.1}>
-             <a href="mailto:hello@theriest.org" className="block p-8 rounded-2xl bg-white border border-sand-200 hover:border-digital hover:shadow-lg transition-all group">
+             <a href="mailto:hello@Releaf.org" className="block p-8 rounded-2xl bg-white border border-sand-200 hover:border-digital hover:shadow-lg transition-all group">
                <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-digital group-hover:text-white transition-colors">
                  <Mail className="w-8 h-8 text-primary-600 group-hover:text-white" />
                </div>
                <h3 className="text-xl font-bold mb-2">Email</h3>
-               <p className="text-slate-500">hello@theriest.org</p>
+               <p className="text-slate-500">hello@Releaf.org</p>
              </a>
            </FadeIn>
 
