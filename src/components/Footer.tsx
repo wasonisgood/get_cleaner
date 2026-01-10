@@ -40,7 +40,7 @@ export function Footer() {
                 <div className="p-2 bg-white/10 rounded-lg border border-white/10 group-hover:bg-digital transition-colors">
                   <Waves className="w-6 h-6 text-digital group-hover:text-white" />
                 </div>
-                <span className="text-2xl font-bold tracking-tight">theriest</span>
+                <span className="text-2xl font-bold tracking-tight">Releaf</span>
               </Link>
               <p className="text-primary-200 leading-relaxed pr-6">
                 我們致力於推動「數位節制」與「數位淨灘」，減少不必要的資訊廢棄物，為地球與心靈留出更多呼吸的空間。
@@ -76,7 +76,7 @@ export function Footer() {
               <ul className="space-y-4 text-primary-200">
                 <li className="flex items-start gap-3">
                    <span className="block mt-1 w-1.5 h-1.5 rounded-full bg-digital flex-shrink-0" />
-                   <span>hello@theriest.com</span>
+                   <span>hello@releaf.com</span>
                 </li>
                 <li className="flex items-start gap-3">
                    <span className="block mt-1 w-1.5 h-1.5 rounded-full bg-digital flex-shrink-0" />
@@ -88,7 +88,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-300">
-            <p>© {currentYear} theriest. All rights reserved.</p>
+            <p>© {currentYear} Releaf. All rights reserved.</p>
             <div className="flex gap-6">
               <Link to="/privacy" className="hover:text-white transition-colors">隱私權政策</Link>
               <Link to="/terms" className="hover:text-white transition-colors">使用條款</Link>

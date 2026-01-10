@@ -27,12 +27,12 @@ export function Home() {
               數位與永續的雙軸轉型
             </span>
             <h1 className="text-6xl md:text-8xl font-bold text-primary-900 tracking-tight mb-8 leading-[1.1]">
-              數位淨灘<br className="hidden md:block"/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 via-digital to-primary-500">為地球減負</span>
+              Releaf 數位淨灘<br className="hidden md:block"/>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 via-digital to-primary-500">一秒點擊就能救地球</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
               數位革命帶來了便利，也留下了隱形的環境債務。<br/>
-              我們將<span className="font-semibold text-primary-900">刪除檔案</span>轉化為<span className="font-semibold text-digital">守護地球</span>的具體行動。
+              我們透過 <span className="font-semibold text-primary-900">Releaf App</span>，將<span className="font-semibold text-primary-900">刪除檔案</span>轉化為<span className="font-semibold text-digital">守護地球</span>的具體行動。
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Link to="/problem" className="bg-primary-900 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-primary-800 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 flex items-center gap-3 group">
@@ -52,22 +52,22 @@ export function Home() {
           <div className="grid md:grid-cols-3 gap-10">
             {[
               {
-                icon: <Leaf className="w-8 h-8 text-white" />,
-                title: "隱形成本",
-                desc: "數據中心與網路傳輸的能源消耗，構成了龐大的環境負擔。",
-                bg: "bg-gradient-to-br from-green-400 to-emerald-600"
-              },
-              {
                 icon: <Smartphone className="w-8 h-8 text-white" />,
-                title: "數位碳足跡",
-                desc: "從製造到廢棄，每一次線上活動都在累積溫室氣體排放。",
+                title: "一秒點擊淨灘",
+                desc: "透過 Releaf App，一鍵清除不必要的數位廢棄物，輕鬆為地球減負。",
                 bg: "bg-gradient-to-br from-blue-400 to-primary-600"
               },
               {
                 icon: <Users className="w-8 h-8 text-white" />,
-                title: "集體力量",
-                desc: "匯聚個人的微小行動，推動ICT產業的實質減碳與社會轉型。",
+                title: "成為淨灘英雄",
+                desc: "累積減碳貢獻，解鎖成就與獎勵，讓環保行動變得有趣且充滿成就感。",
                 bg: "bg-gradient-to-br from-orange-400 to-red-500"
+              },
+              {
+                icon: <Leaf className="w-8 h-8 text-white" />,
+                title: "綠色程式碼",
+                desc: "採用低耗能的程式設計與架構，從源頭減少數位碳足跡，推動產業轉型。",
+                bg: "bg-gradient-to-br from-green-400 to-emerald-600"
               }
             ].map((item, i) => (
               <FadeIn key={i} delay={i * 0.1}>

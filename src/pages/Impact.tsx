@@ -123,25 +123,46 @@ export function Impact() {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             { 
-              icon: <Download size={32} />, 
-              val: "10k+", 
-              label: "首年下載量", 
-              sub: "市場接受度驗證",
-              color: "text-blue-500" 
-            },
-            { 
               icon: <Database size={32} />, 
-              val: "PB級", 
+              val: "> 500 TB", 
               label: "數據清理量", 
-              sub: "轉化為碳減排",
+              sub: "目標釋放數位空間",
               color: "text-digital" 
             },
             { 
+              icon: <Globe size={32} />, 
+              val: "> 100 噸", 
+              label: "碳排放減少", 
+              sub: "CO2e 實質減量",
+              color: "text-green-500" 
+            },
+            { 
+              icon: <Users size={32} />, 
+              val: "10,000+", 
+              label: "月活躍用戶 (MAU)", 
+              sub: "建立數位淨灘社群",
+              color: "text-blue-500" 
+            },
+            { 
               icon: <Activity size={32} />, 
-              val: "High", 
-              label: "活躍度", 
-              sub: "行為改變持續性",
+              val: "70%", 
+              label: "用戶留存率", 
+              sub: "持續性的環保習慣",
               color: "text-purple-500" 
+            },
+             { 
+              icon: <Zap size={32} />, 
+              val: "50%", 
+              label: "習慣養成", 
+              sub: "用戶建立定期清理習慣",
+              color: "text-yellow-500" 
+            },
+             { 
+              icon: <Download size={32} />, 
+              val: "50k+", 
+              label: "累積下載", 
+              sub: "App Store / Google Play",
+              color: "text-orange-500" 
             }
           ].map((stat, i) => (
             <FadeIn delay={i * 0.1} key={i}>

@@ -38,7 +38,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Waves className="w-6 h-6 text-white" />
             </div>
             <span className="text-xl font-bold tracking-tight text-primary-900">
-              theriest
+              Releaf
             </span>
           </Link>
 

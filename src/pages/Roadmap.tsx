@@ -6,42 +6,32 @@ export function Roadmap() {
   const steps = [
     {
       phase: "Phase 1",
-      title: "概念驗證與設計",
-      subtitle: "Concept & Design",
+      title: "個人覺醒與工具導入",
+      subtitle: "Individual Awareness & App Launch",
       items: [
-        "深度分析市場既有清理工具與永續應用。",
-        "確立「數位淨灘」差異化優勢與價值主張。",
-        "完成 UI/UX 設計：建立使用者數位習慣與環境影響的情感連結。"
+        "推出 Releaf App：提供「一鍵淨灘」與「Releaf 助手」核心功能。",
+        "聚焦個人使用者：建立定期清理的數位習慣。",
+        "目標：讓使用者體驗到刪除檔案＝守護地球的直接連結。"
       ]
     },
     {
       phase: "Phase 2",
-      title: "敏捷開發與建構",
-      subtitle: "Development & Build",
+      title: "企業合作與標準制定",
+      subtitle: "Enterprise & Green Coding Standards",
       items: [
-        "採用兩週衝刺 (Sprint) 的敏捷開發模式。",
-        "優先開發核心模組：「本機清理」與「永續成就儀表板」。",
-        "整合「雲端空間引導」模組，確保核心功能完整。"
+        "推動「綠色程式碼」認證：協助企業進行數位減碳。",
+        "建立 B2B 合作夥伴關係：導入企業級數位淨灘方案。",
+        "擴大影響力：從個人延伸至組織層級的數位廢棄物管理。"
       ]
     },
     {
       phase: "Phase 3",
-      title: "內部測試與發表",
-      subtitle: "Testing & Launch",
+      title: "生態系建構與政策影響",
+      subtitle: "Ecosystem & Policy Influence",
       items: [
-        "全面的 QA 測試：功能、效能、安全性與相容性。",
-        "封閉 Beta 測試：招募目標使用者，收集回饋優化產品。",
-        "正式上架：發布至台灣 Apple App Store 與 Google Play Store。"
-      ]
-    },
-    {
-      phase: "Phase 4",
-      title: "市場推廣與迭代",
-      subtitle: "Promotion & Iteration",
-      items: [
-        "社群經營：建立數位永續社群，與環保組織合作。",
-        "數據驅動優化：分析使用者行為，作為新功能開發依據。",
-        "持續進化：讓「數位淨灘」成為一種持久的環保生活習慣。"
+        "倡議「數位廢棄物」相關政策與稅制討論。",
+        "建立完整永續生態系：連結政府、企業與個人。",
+        "雙軸轉型：實現數位轉型與淨零碳排的同步發展。"
       ]
     }
   ];
