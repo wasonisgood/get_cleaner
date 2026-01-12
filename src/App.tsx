@@ -5,6 +5,7 @@ import { Home } from './pages/Home';
 import { Problem } from './pages/Problem';
 import { Philosophy } from './pages/Philosophy';
 import { Solutions } from './pages/Solutions';
+import { Curation } from './pages/Curation';
 import { Impact } from './pages/Impact';
 import { Roadmap } from './pages/Roadmap';
 import { Contact } from './pages/Contact';
@@ -31,6 +32,7 @@ function App() {
           <Route path="/problem" element={<Problem />} />
           <Route path="/philosophy" element={<Philosophy />} />
           <Route path="/solutions" element={<Solutions />} />
+          <Route path="/curation" element={<Curation />} />
           <Route path="/impact" element={<Impact />} />
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/contact" element={<Contact />} />

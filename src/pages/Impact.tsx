@@ -1,5 +1,6 @@
 import { Section, FadeIn } from '../components/Section';
 import { Heart, Globe, Zap, Download, Database, Activity, Users, ArrowUpRight } from 'lucide-react';
+import { NextPageSection } from '../components/NextPageSection';
 
 export function Impact() {
   return (
@@ -175,9 +176,11 @@ export function Impact() {
                  <p className="text-sm text-slate-500 uppercase tracking-wide">{stat.sub}</p>
               </div>
             </FadeIn>
-          ))}
-        </div>
-      </Section>
-    </div>
-  );
-}
+                     ))}
+                  </div>
+                </Section>
+          
+                <NextPageSection title="執行藍圖" link="/roadmap" />
+              </div>
+            );
+          }

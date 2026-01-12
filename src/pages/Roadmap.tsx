@@ -1,6 +1,7 @@
 import { Section, FadeIn } from '../components/Section';
 import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
+import { NextPageSection } from '../components/NextPageSection';
 
 export function Roadmap() {
   const steps = [
@@ -108,6 +109,8 @@ export function Roadmap() {
           </div>
         </Section>
       </div>
+
+      <NextPageSection title="加入行動" link="/contact" />
     </div>
   );
 }

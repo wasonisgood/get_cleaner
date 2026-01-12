@@ -1,5 +1,6 @@
 import { Section, FadeIn } from '../components/Section';
 import { AlertTriangle, Server, CloudFog, Globe2 } from 'lucide-react';
+import { NextPageSection } from '../components/NextPageSection';
 
 export function Problem() {
   return (
@@ -106,6 +107,8 @@ export function Problem() {
            </div>
         </Section>
       </div>
+
+      <NextPageSection title="核心理念" link="/philosophy" />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { TreePlantingDemo } from '../components/app-modules/TreePlantingDemo';
 import { SocialSquadDemo } from '../components/app-modules/SocialSquadDemo';
 import { MobileFrame } from '../components/app-modules/MobileFrame';
 import { motion } from 'framer-motion';
+import { NextPageSection } from '../components/NextPageSection';
 
 export function Solutions() {
   return (
@@ -276,6 +277,8 @@ export function Solutions() {
            </div>
         </div>
       </Section>
+
+      <NextPageSection title="數位策展" link="/curation" />
     </div>
   );
 }

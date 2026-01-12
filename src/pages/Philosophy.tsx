@@ -1,5 +1,6 @@
 import { Section, FadeIn } from '../components/Section';
 import { Zap, Target, Shield, Recycle } from 'lucide-react';
+import { NextPageSection } from '../components/NextPageSection';
 
 export function Philosophy() {
   return (
@@ -82,6 +83,8 @@ export function Philosophy() {
            </div>
         </Section>
       </div>
+
+      <NextPageSection title="解決方案" link="/solutions" />
     </div>
   );
 }

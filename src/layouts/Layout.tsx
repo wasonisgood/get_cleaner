@@ -47,6 +47,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <NavLink to="/problem">危機與挑戰</NavLink>
             <NavLink to="/philosophy">核心理念</NavLink>
             <NavLink to="/solutions">解決方案</NavLink>
+            <NavLink to="/curation">數位策展</NavLink>
             <NavLink to="/impact">預期效益</NavLink>
             <NavLink to="/roadmap">執行藍圖</NavLink>
             <Link
@@ -80,6 +81,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Link to="/problem" onClick={() => setMobileMenuOpen(false)}>危機與挑戰</Link>
               <Link to="/philosophy" onClick={() => setMobileMenuOpen(false)}>核心理念</Link>
               <Link to="/solutions" onClick={() => setMobileMenuOpen(false)}>解決方案</Link>
+              <Link to="/curation" onClick={() => setMobileMenuOpen(false)}>數位策展</Link>
               <Link to="/impact" onClick={() => setMobileMenuOpen(false)}>預期效益</Link>
               <Link to="/roadmap" onClick={() => setMobileMenuOpen(false)}>執行藍圖</Link>
               <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="text-digital font-bold">加入行動</Link>
